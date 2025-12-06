@@ -313,7 +313,8 @@ console.log(`Request from: ${request.headers.get('cf-connecting-ip')}`)
 - 🔍 **自动检测API状态**：每 1 小时检测一次 API 可用性，并记录最近 100 次测试报告。  
 - 🧩 **源名称前添加图标**：源名称前添加图标，方便区分。  
 - 🌐 **被墙资源自动中转**：为受限 API 提供 CF Worker 中转能力。  
-  
+- 📄 **添加_comment参数**：为异常源添加_comment参数以方便维护,不影响正常使用!(2025.12.06)
+
 ---   
 
 ## 🧪 测试与示例
@@ -433,8 +434,12 @@ console.log(`Request from: ${request.headers.get('cf-connecting-ip')}`)
 <!-- API_TABLE_END -->
 
 
-## ⭐ Star 星星走起
-[![Stargazers over time](https://starchart.cc/hafrey1/LunaTV-config.svg?variant=light)](https://starchart.cc/hafrey1/LunaTV-config)
+## ⭐ Star History
+[![Star History](https://starchart.cc/hafrey1/LunaTV-config.svg?variant=light)](https://starchart.cc/hafrey1/LunaTV-config)
+
+
+
+
 
 
 
